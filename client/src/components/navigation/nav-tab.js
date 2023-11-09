@@ -1,9 +1,17 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-const NavTab = () => {
+const NavTab = ({ path, label }) => {
 
     return (
         <>
+        <NavLink
+            to={path}
+            end
+            className='nav-bar-link'
+            >
+                {label}
+            </NavLink>
         </>
     )
 }

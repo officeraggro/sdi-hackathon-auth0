@@ -1,12 +1,14 @@
 import React from "react";
+import PageLayout from "../components/page-layout";
 
 const ProfilePage = () => {
+  return (
+    <>
+      <PageLayout>
+        <h1>Profile Page</h1>
+      </PageLayout>
+    </>
+  );
+};
 
-    return (
-        <>
-            <h1>Profile Page</h1>
-        </>
-    )
-}
-
-export default ProfilePage
+export default ProfilePage;

@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  ui:
+    image: react-auth0
+    container_name: ui
+    build: ./client
+    volumes: 
+      - ./client:/app
+    ports:
+      - "3000:3000"

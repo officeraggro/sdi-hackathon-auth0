@@ -7,6 +7,8 @@ const AdminPage = () => {
         <>
         <PageLayout>
             <h1>Admin Page</h1>
+            <br />
+            <p>This is the admin page. Only authenticated admin users should see this page.</p>
         </PageLayout>
         </>
     )

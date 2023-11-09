@@ -6,6 +6,8 @@ const SettingsPage = () => {
     <>
       <PageLayout>
         <h1>Settings Page</h1>
+        <br />
+        <p>This is the settings page. Authenticated users should be able to see this.</p>
       </PageLayout>
     </>
   );

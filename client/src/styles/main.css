@@ -1,10 +1,13 @@
 .page-layout {
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     align-items: center;
 
     height: 100vh;
-    width: 100%;
+    width: 80%;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .page-content {
